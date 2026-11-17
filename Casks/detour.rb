@@ -1,6 +1,6 @@
 cask "detour" do
-  version "1.3.0"
-  sha256 "f19662e534b0ae9c8713349cb1df8763dc20a4801d5e18b0dfc11da7243c2775"
+  version "1.4.0"
+  sha256 "027b0a1611884daac38126a2c05c1997a7364c15bc02ec13c754736fc6ba4e51"
 
   url "https://github.com/ten50-nl/detour/releases/download/v#{version}/Detour-#{version}.dmg"
   name "Detour"
