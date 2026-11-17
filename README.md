@@ -3,7 +3,7 @@
 Homebrew casks for apps by [ten50](https://ten50.nl).
 
 ```sh
-brew install --cask ten50nl/tap/detour
+brew install --cask ten50-nl/tap/detour
 ```
 
 | Cask | What it is |
