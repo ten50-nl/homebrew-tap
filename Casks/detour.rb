@@ -1,6 +1,6 @@
 cask "detour" do
-  version "1.5.0"
-  sha256 "5a292f5375bfb37a1ffce28bd1605bf09c9145fa4d7cefaa775d4398b090c6c4"
+  version "1.6.0"
+  sha256 "3ec96feb5b1ff78c844c1ce798f026c45ca93558391eb2e9af59f00e7b6b9f2d"
 
   url "https://github.com/ten50-nl/detour/releases/download/v#{version}/Detour-#{version}.dmg"
   name "Detour"
@@ -10,6 +10,7 @@ cask "detour" do
   depends_on macos: ">= :sequoia"
 
   app "Detour.app"
+  binary "#{appdir}/Detour.app/Contents/Helpers/detour"
 
   uninstall quit: "nl.ten50.detour"
 
